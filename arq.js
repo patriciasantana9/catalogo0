@@ -16,6 +16,7 @@ function acrescentar(){
 enviar_botao.addEventListener("click", acrescentar);
 
 //object inicial
+//array para catalogação de pessoas
 const pessoas = {  
     amy: {
         nome: 'nome: Amy',
@@ -32,9 +33,8 @@ const pessoas = {
 }
 
 //função para enviar resposta de acordo com nome digitado por usuário
-//precisa aceitar qualquer nome que 
+//precisa aceitar qualquer nome que o usuário digitar 
 function responder() {
-    //window.alert('Oii');
     if (nome.value === 'Amy') {
         resposta.innerHTML = amy.nome + '<br>' + amy.idade + '<br>' + amy.cabelo + '<br>' + amy.cor;  
         } else if (nome.value === 'Luna') {
