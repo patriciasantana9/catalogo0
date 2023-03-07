@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo</h1>
+    </header>
+    <section>
+        <div id="acrescentar_pessoa">
+            <h4 class="titulo_acrecentar_pessoa">Digite as informações da pessoa que deseja acrescentar ao nosso catálogo:</h4>
+            <input type="text" class="enviar_nome" placeholder="Nome">
+            <input type="text" class="enviar_idade" placeholder="Idade">
+            <button class="botao_enviar">Enviar</button>
+        </div>
+
+        <br>
+
+        <div id="lista">
+            <main class="catalogados">
+                <h4>Nossos catalogados:</h4>
+                <p>Amy</p> 
+                <p>Luna</p>
+                <p>Patrícia</p> 
+            </main>           
+        </div>
+
+        <br>
+
+        <h4>Informações por pesquisa</h4>
+
+        <br>
+        
+        <label for="input">Nome da pessoa:</label>
+        <input type="text" id="ad" placeholder="Nome da pessoa">
+        <button class="pesquisar">Enviar</button>
+
+        <p>Informações encontradas:</p>
+        <div id="caixaR">
+            
+            <p id="resp">
+
+            </p>
+
+        </div>
+
+    </section>
+    <script src="arq.js"></script>
+</body>
+</html>

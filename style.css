@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(244, 165, 96, 0.719);
+    margin: 57px ;
+    display: flex;
+    flex-direction: column;     /*os itens ficarão em coluna*/
+    align-items: center;        /*os itens ficarão centralizados*/
+}
+header {
+    width: 47vw;
+    padding: 10px 62px;
+    margin: 20px 0px 3px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;    /*precisa estar assim para ficar no centro*/
+    align-items: center;
+    border-radius: 10px;
+}
+section {
+    width: 47vw;
+    background-color: white;
+    padding: 62px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 1,5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-size: 1,7vw;
+    font-weight: lighter;
+}
+div#caixaR {
+    height: 100px;
+    width: 250px;
+    border-style: solid;
+    border-width: 1px;
+}
+main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    width: 170px;
+}
+h4 {
+    font-size: 1,5vw;
+    margin: 5px;
+}
+div h4 {
+    padding: 0px 0px 15px 0px;
+}
+
+#acrescentar_pessoa {  
+    display: flex;
+    flex-direction: column;
+}
+#acrescentar_pessoa button, input {
+    margin: 8px;
+    width: fit-content;
+}
