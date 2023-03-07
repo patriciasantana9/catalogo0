@@ -4,19 +4,23 @@
 let nome = document.querySelector('input#ad'); //trazer os elementos HTML
 let resposta = document.querySelector('p#resp');
 let botao = document.querySelector('button');
-let noNome = document.querySelector('.enviar_nome');
-let noIdade = document.querySelector('.enviar_idade');
 let enviar_botao = document.querySelector('.botao_enviar');
 
 //enviar novas pessoas para lista já existente
 function acrescentar(){
     //manipulação de objects
-
+    
 }
 enviar_botao.addEventListener("click", acrescentar);
 
 //object inicial
 //array para catalogação de pessoas
+let pessoa = document.querySelector('.enviar_nome');;
+let noIdade = document.querySelector('.enviar_idade');
+//fazer loop para adicionar informações a cada vez que for enviado pelo usuário
+const pessoas = {};
+
+/*
 const pessoas = {  
     amy: {
         nome: 'nome: Amy',
@@ -29,8 +33,10 @@ const pessoas = {
     patricia: {
         nome: 'nome: Patrícia',
         idade: 'idade: 23',
-    }
+    },
+    pessoa: []
 }
+*/
 
 //função para enviar resposta de acordo com nome digitado por usuário
 //precisa aceitar qualquer nome que o usuário digitar 
